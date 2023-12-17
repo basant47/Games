@@ -43,7 +43,7 @@ void Four_in_a_row_Board::display_board() {
 }
 bool Four_in_a_row_Board::is_winner() {
     char mark;
-    for (int i = 0; i <= 5; i++) {
+    for (int i = 0; i <= 5; i++) { //horizontal
         for (int j = 0; j <= 3; j++) {
             mark = board[i][j];
             if (mark != 0 && board[i][j + 1] == mark && board[i][j + 2] == mark && board[i][j + 3] == mark) {
