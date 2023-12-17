@@ -12,7 +12,7 @@ int main() {
     cout << "Press 1 if you want to play with computer: ";
     cin >> choice;
     if (choice != 1){
-        cout<< "what you want to play enter 1 if you want to play xo or enter 2 if you want four in row game or 3 if you want pyramic tic_tac_toe game or 4 if you want tic tac toe game ";
+        cout<< "what you want to play enter 1 if you want to play xo or enter 2 if you want (four in row) game or 3 if you want pyramic tic_tac_toe game or 4 if you want tic tac toe game ";
         cin >> num_game;
         if (num_game == 1) {
             Player *players[2];
