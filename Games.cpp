@@ -89,6 +89,7 @@ bool Four_in_a_row_Board::game_is_over () {
     players[0] = playerPtr[0];
     players[1] = playerPtr[1];
 }
+ // update in  game manager 
 void GameManager::run() {
     int x, y;
 
